@@ -12,9 +12,9 @@ function validate(){
 var password = document.getElementById("pass").value;
 var name = document.getElementById("name").value;
 var length = document.getElementById("length").value;
-if(password== "FINN83992093" && name=="Hamilton Lewis" || length >=15) {
+if(password== "FINN83992093" && name=="Maurice Smith" || length >=15) {
 alert("Tracking Successful");
-alert("welcome Hamilton Lewis");
+alert("welcome Maurice Smith");
 window.location.replace("Tracking_details.html");
 }
 else{
